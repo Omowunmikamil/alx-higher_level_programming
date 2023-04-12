@@ -8,6 +8,7 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """Represents a class Rectangle that inherits from the base class"""
+    
     def __init__(self, width, height):
         self.__width = 0
         self.__height = 0
@@ -23,7 +24,5 @@ class Rectangle(BaseGeometry):
         return self.__width * self.__height
 
     def __str__(self):
-        """
-        Prints rectangle description [Rectangle] <width>/<height>
-        """
+        """informal string representation of the rectangle"""
         return (f"[Rectangle] {self.__width}/{self.__height}")
