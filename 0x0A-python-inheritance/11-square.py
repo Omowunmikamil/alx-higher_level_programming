@@ -10,23 +10,18 @@ class Square(Rectangle):
 
     def __init__(self, size):
         """Initialize a new square.
-        Args:
-            size (int): The size of the new square.
+            Args:
+                size (int): The size of the new square.
         """
         self.__size = 0
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
-    def __str__(self):
-        """
-        Returns a string representation of the square.
-        """
-        return (f"[Square] {self.__size}/{self.__size}")
-
     def area(self):
-        """
-        Computes the area of the square.
-        """
+        """Computes the area of the square."""
         return self.__size ** 2
 
+    def __str__(self):
+        """print representation of the square."""
+        return (f"[Square] {self.__size}/{self.__size}")
