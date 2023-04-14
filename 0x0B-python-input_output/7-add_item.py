@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This Script Creates a Python List And Saves all Arguments to a list
+Script to save and load
 """
 
 from sys import argv
@@ -8,13 +8,16 @@ save_to_json_file = __import__("5-save_to_json_file").save_to_json_file
 load_from_json_file = __import__("6-load_from_json_file").load_from_json_file
 
 filename = "add_item.json"
-
+my_list = []
 try:
-    json_list = load_from_json_file(filename)
-except FileNotFoundError:
-    json_list = []
+    my_list = load_from_json_file(filename)
+except Exception:
+    save_to_json_file(my_list, filename)
 
-for arg in argv[1:]:
-    json_list.append(arg)
+arg_len = len(argv)
 
-save_to_json_file(items, "add_item.json")
+if arg_len > 1:
+    for i in range(1, arg_len):
+        my_list.append(argv[i])
+
+    save_to_json_file(items, "add_item.json")
