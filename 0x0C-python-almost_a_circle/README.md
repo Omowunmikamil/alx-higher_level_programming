@@ -1,4 +1,5 @@
 0x0C. Python - Almost a circle
+<<<<<<< HEAD
 
 
 Background Context
@@ -22,3 +23,5 @@ You will also learn about:
 args and kwargs
 Serialization/Deserialization
 JSON
+
+![giphy](https://user-images.githubusercontent.com/109985883/232289937-4d0e2415-bd73-47dd-bbee-49c8f319c163.gif)
