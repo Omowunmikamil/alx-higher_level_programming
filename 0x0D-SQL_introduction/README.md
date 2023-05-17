@@ -2,6 +2,8 @@
 <h3>SQL</h3>
 <h3>MySQL</h3>
 
+![rtcwz](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/04b597d8-51d1-49af-92a4-842b3263857b)
+
 #### Task 0: [0-list_databases.sql]
 * Write a script that lists all databases of your MySQL server
 #### Task 1: [1-create_database_if_missing.sql]
