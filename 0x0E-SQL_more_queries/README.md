@@ -2,7 +2,9 @@
 <h3>SQL</h3>
 <h3>MySQL</h3>
 
-This directory contains files created in response to tasks set forth in Holberton student project "0x0E. SQL - More queries". These SQL scripts demonstrate a further introduction to MySQL databases - including permission, more advanced queries, and joins.
+![66988091](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/e27c1e3f-32b6-4002-8168-df07c0af9996)
+
+This directory contains files created in response to tasks set forth in ALX student project "0x0E. SQL - More queries". These SQL scripts demonstrate a further introduction to MySQL databases - including permission, more advanced queries, and joins.
 
 #### Task 0: [0-privileges.sql]
 * Write a script that lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on your server (in `localhost`)
