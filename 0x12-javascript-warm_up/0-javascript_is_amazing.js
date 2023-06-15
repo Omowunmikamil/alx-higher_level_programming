@@ -1,6 +1,5 @@
 #!/usr/bin/node
-// JavaScript basic print
+// Basic print with JavaScript
 
-const myVar = 'Javascript is amazing';
-
+const myVar = 'JavaScript is amazing';
 console.log(myVar);
