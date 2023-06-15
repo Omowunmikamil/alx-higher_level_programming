@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // Argument value output with JavaScript
 
-const myArg = process.argv[3];
+const myArg = process.argv[2];
 
 if (myArg) {
   console.log(myArg);
