@@ -3,11 +3,11 @@
 
 const fun = 'C is fun';
 
-if (process.argv.lenght >= 3) {
-  let index = process.argv[2];
-  while (index > 0) {
+if (process.argv.length >= 3) {
+  let i = process.argv[2];
+  while (i > 0) {
     console.log(fun);
-    index--;
+    i--;
   }
 } else {
   console.log('Missing number of occurrences');
