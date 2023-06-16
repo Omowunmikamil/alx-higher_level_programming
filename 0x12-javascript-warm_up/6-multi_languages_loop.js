@@ -3,8 +3,6 @@
 
 const array = ['C is fun', 'Python is cool', 'JavaScript is amaizing'];
 
-let index = 0;
-while (array[index]) {
+for (let index = 0, len = array.length; index < len; index++) {
   console.log(array[index]);
-  index++;
 }
