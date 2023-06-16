@@ -3,6 +3,6 @@
 
 const array = ['C is fun', 'Python is cool', 'JavaScript is amaizing'];
 
-for (let i = 0, len = array.length; i < len; i++) {
-  console.log(array[i]);
+for (let index = 0, len = array.length; index < len; index++) {
+  console.log(array[index]);
 }
