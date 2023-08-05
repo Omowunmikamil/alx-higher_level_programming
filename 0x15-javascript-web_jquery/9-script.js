@@ -3,3 +3,4 @@ window.onload = function () {
     $('div#hello').text(data.hello);
   });
 };
+
