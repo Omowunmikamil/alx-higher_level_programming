@@ -3,7 +3,7 @@
 
 ## Learning Objectives
 
-<p justify-conten="center">![image (1)](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/646f7175-5ec5-4680-b95d-def59eda10e5)</p>
+![image (1)](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/646f7175-5ec5-4680-b95d-def59eda10e5)
 
 - To know Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
 - To know how to select HTML elements in JavaScript
