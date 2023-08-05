@@ -1,7 +1,8 @@
 # 0x15. JavaScript - Web jQuery
 **Front-end** **JavaScript**
 
-## Learning Objectives
+## Learning Objectives![image (1)](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/646f7175-5ec5-4680-b95d-def59eda10e5)
+
 - To know Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
 - To know how to select HTML elements in JavaScript
 - To know How to select HTML elements with JQuery
@@ -29,6 +30,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 ```
+
+![image-2](https://github.com/Omowunmijuin/alx-higher_level_programming/assets/109985883/d0ac14a4-8eb4-4b53-b6d4-661b8903f47e)
 
 ## Resources
 **Read or watch:**
